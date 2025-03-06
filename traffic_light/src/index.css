@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,4 +65,36 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+} 
+*/
+
+.App{
+  font-family: sans-serif;
+}
+.wrapper{
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #000;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 5%;
+}
+
+.green{
+  background-color: green;
+}
+.yellow{
+  background-color: yellow;
+}
+.red{
+  background-color: red;
+}
+
+.light{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
 }
