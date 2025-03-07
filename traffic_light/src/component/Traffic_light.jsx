@@ -70,11 +70,11 @@ const Traffic_light = () => {
     return (
         <div className="wrapper ">
             <div className="light green"
-                style={active !== LIGHTS.green ? { opacity: .5 } : null}> A</div>
+                style={active !== LIGHTS.green ? { opacity: .5 } : null}> </div>
             <div className="light yellow"
-                style={active !== LIGHTS.yellow ? { opacity: .5 } : null}> B</div>
+                style={active !== LIGHTS.yellow ? { opacity: .5 } : null}> </div>
             <div className="light red"
-                style={active !== LIGHTS.red ? { opacity: .5 } : null}> C</div>
+                style={active !== LIGHTS.red ? { opacity: .5 } : null}> </div>
         </div >
     );
 };
