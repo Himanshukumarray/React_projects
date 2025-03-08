@@ -34,7 +34,7 @@ function App() {
 
   return (
     <div className="w-full max-w-md mx-auto shadow-md rounded-lg px-8 py-3 my-8 bg-gray-800 text-orange-500">
-      <h1 className='text-white text-center my-8'>Password generator</h1>
+      <h1 className='text-2xl text-white text-center my-5'>Password generator</h1>
       <div className="flex shadow rounded-lg overflow-hidden mb-8">
         <input
           type="text"
@@ -79,7 +79,7 @@ function App() {
           />
           <label htmlFor="characterInput">Characters</label>
         </div>
-      </div>
+      </div>    
       <button
         onClick={passwordGenerator}
         className='w-full bg-green-600 text-white py-2 rounded-lg mt-4'
